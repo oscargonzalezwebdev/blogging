@@ -1,0 +1,44 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  gap: 10px;
+}
+
+section {
+  width: 100%;
+  border: 1px solid #323232;
+  padding: 20px;
+}
+
+.formulario {
+  padding: 20px;
+  border-radius: 30px;
+  
+}
+
+input {
+  margin: 10px 0 20px 0;
+  font-size: 16px;
+  width: 50%;
+  border: 1px solid #323232;
+  outline: none;
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+}
+
+button {
+  background: #323232;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: #636363;
+  }
+  border-radius: 10px;
+}
+

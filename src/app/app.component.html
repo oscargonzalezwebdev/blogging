@@ -1,9 +1,9 @@
 <header>
-  <h1>Blog</h1>
+  <h1>BLOG</h1>
   <hr>
 </header>
-<main >
+<main>
   <section>
-    <app-blog [listanoticias]="arrNoticias"></app-blog>
+    <app-blog (noticiaEmitida)="obtenerDatos($event)" [listanoticias]="arrNoticias"></app-blog>
   </section>
 </main>

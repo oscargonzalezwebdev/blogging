@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    background: #DDD0C8;
+    color: #323232;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.02);
+  }
+  
+  h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  p {
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+  
+  small {
+    display: block;
+    color: #888;
+    font-size: 12px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+  }

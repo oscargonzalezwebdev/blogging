@@ -1,1 +1,30 @@
-<p>blog works!</p>
+<div class="contenedor">
+    <section>
+        <div class="formulario">
+            <h2>Formulario</h2>
+            <div>
+                <label for="titulo">Titulo</label>
+                <input id="titulo" type="text" placeholder="Introduce el titulo de la noticia" [(ngModel)]="nuevaNoticia.titulo">
+            </div>
+            <div>
+                <label for="imagen">Imagen</label>
+                <input id="imagen" type="text" placeholder="Introduce la URL de la imagen" [(ngModel)]="nuevaNoticia.imagen">
+            </div>
+            <div>
+                <label for="texto">Descripción</label>
+                <input id="texto" type="text" placeholder="Introduce la descripción de la noticia" [(ngModel)]="nuevaNoticia.texto">
+            </div>
+            <div>
+                <label for="fecha">Fecha</label>
+                <input id="fecha" type="text" placeholder="Introduce la fecha de la noticia" [(ngModel)]="nuevaNoticia.fecha">
+            </div>
+            <button (click)="obtenerNoticia()">Guardar</button>
+        </div>
+    </section>
+    <section>
+        <div>
+            <ul [innerHTML]="texto"></ul>
+        </div>
+    </section>
+</div>
+
